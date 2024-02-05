@@ -1,0 +1,35 @@
+___________________________________________ Command Commands { ComComs } _____________________________________________
+
+~ 'gg' to go to the beginning of the file.
+
+~ 'G' to go to the ending of the file.
+
+~ 'w' to move one word by word forward.
+
+~ 'nw' to move no.of words by words forwards.
+
+~ 'b' to move one word by word backward.
+
+~ 'nb' to move no.of words by words backwards.
+
+~ 'u undo last change of word.
+
+~ 'U' undo previous change of entire line.
+
+~ 'yy' to copy a line.
+
+~ 'nyy' to copy no.of lines.
+
+~ 'p' paste the copied line below cursor position.
+
+~ 'P' paste the copied line above cursor position.
+
+~ 'dw & x' is used to delete the word letter by letter [ like backspace , delete key ].
+
+~ 'dd' to delete entire line.
+
+~ 'ndd' to delete the no.of lines from cursor position.
+
+~ '/' to search the word in the file.
+
+~ 'Ctrl+R' to redo the changes [ like history , Ctrl+z ]
