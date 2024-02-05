@@ -1,0 +1,14 @@
+---------- INSERT COMMANDS -----------
+
+* 'i' is used to begin the process of inserting data to the file.
+
+* 'I' is used to insert the data at the beginning of the line.
+
+* 'a' is used to add the data to the next word {ex: "Iam an Indian" is the sentence presented if i do : and backspace then i type 'a' then the cursor at after the "}
+
+* 'A' is used to add the data at end of the line {ex: "i sing a song" ..... type 'A' then the cursor at the end of the line }
+
+* 'o' is used to add the data in new line below the cursor position.
+
+* 'O' is used to add the data in new line above the cursor position.
+
