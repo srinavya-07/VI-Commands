@@ -1,0 +1,19 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Extended or Colon Commands >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+-> ':w' to save the changes of file.
+
+-> ':w!' to save forcefully the file.
+
+-> ':q' to quit the file without saving.
+
+-> ':wq & x' to save and quit the file.
+
+-> ':wq!' to save and quit the file forcefully.
+
+-> ':X' to give the passwd & remove the passwd to the file.
+
+-> ':se nu' to see the serial number of the lines in the file.
+
+-> ':se nonu' to remove the serial number from the file.
+
+-> ':n' to go the particular numbered line.
