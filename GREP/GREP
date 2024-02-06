@@ -1,0 +1,20 @@
+//////////////////////////////////////////////// GREP COMMANDS ////////////////////////////////////////////////////// 
+
+1) 'grep word filename' - to see that particular word line in the file.
+
+2) 'grep -i word fn' - to see the all lines of file.
+
+3) 'grep -nA2 word fn' - to see the particular word at top position { replace any number at 2's position }.
+
+4) 'grep -nB2 word fn' - to see the particular word at bottom position { " }.
+
+5) 'grep -nC2 word fn' - to see the particular word at middle position { " }.
+    [ Replaced number depends on the no.of lines present in the given file ]
+
+6) 'grep -v word fn' - to see the file without that particular word.
+
+7) 'grep --color word fn' - to see the particular word in colour formet.
+
+8) 'cat fn | grep -i word fn' - combining the commands but display the last command only i.e grep -i word fn.
+    [ 'cat fn & ls -l' - to display two commands at a time. ]    
+
