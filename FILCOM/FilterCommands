@@ -1,0 +1,30 @@
+========================================= FILTER COMMANDS =========================================
+
++ 'less filename' - to see the data in linewise or pagewise from top to bottom in less amount.
+
++ 'more filename' - to see the data in linewise or pagewise from top to bottom in more amount.
+
+ [ Note: 1) press Enter key to scroll down line by line (or)
+         2) Use d to go to next page
+         3) Use b to go to previous page
+         4) Use / to search for a word in the file
+         5) Use v to go vi mode where you can edit the file and once you save it you will back to 
+            less command ]
+
++ 'head fn' - to see top lines in the file.
+  'head -n fn' - to see top no.of lines in the file.
+
++ 'tail fn' - to see bottom lines in the file.
+  'tail -n fn' - to see bottom no.of lines in the file.
+
++ 'sort fn' - to see the data in Alphabetical order & Numerical order.
+  'sort -d/h fn' - to convert the zigzag numeric order to correct order.
+  'sort -u fn' - remove the repeated or duplicated words in the file.
+  'sort -r fn' - to see the file in reverse order.
+
++ 'cut -b n,n,n... fn' - to see the particular numbered letters in the words.
+
++ "sed 's/presented oldname/replaceble newname/g' filename" - sed stands for stream editor, which                                                                is used to search a word in the file                                                               and replace it with the word.
+
+
+[ Note: All Filters will only modify the output, but there will be no change in the original file ]
