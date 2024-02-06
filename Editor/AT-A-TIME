@@ -1,0 +1,7 @@
+
+
+              " vim -o filename1 filename2 "
+	                
+			- to open & edit the n files at a time .
+
+			             - : backspace ctrl+w is the command to move the cursor between 2 files. 
