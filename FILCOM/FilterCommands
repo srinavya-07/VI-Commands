@@ -25,6 +25,7 @@
 + 'cut -b n,n,n... fn' - to see the particular numbered letters in the words.
 
 + "sed 's/presented oldname/replaceble newname/g' filename" - sed stands for stream editor, which is used to search a word in the file and replace it with the word.
-
+  "sed 's/pon/rnn/g' oldfilename > newfilename" - it makes the changes in the file and send the modified data to the new file.
+     { changes not visible in the old file }
 
 [ Note: All Filters will only modify the output, but there will be no change in the original file ]
