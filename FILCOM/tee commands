@@ -1,0 +1,12 @@
+@      The option of redirections will not display any output, but directly save the output in a file.
+@      Using tee command will not only redirect the output to new file but it will also display the output.
+
+        ----------------------        " cat oldfilename | tee newfilename "      ----------------------
+
+@      Note: If the given name of the file (newfile) is not available a new file will be created automatically.
+             If the file already exists then it will overwrite contents of the file.
+@      Add the data in the same file i.e new file by using this command.
+
+           ---------------------------   " cat ofn | tee -a nfn "   ------------------------------------
+
+                  already presented data + new data is visible.
